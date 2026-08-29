@@ -1,0 +1,37 @@
+name: PrimeHomes
+version: '1.0.0'
+main: com.primesmp.homes.PrimeHomes
+api-version: '1.20'
+author: PrimeSMP
+description: Personal homes for Prime SMP
+
+commands:
+  sethome:
+    description: Set a home at your current location
+    usage: /<command> [name]
+  home:
+    description: Teleport to one of your homes
+    usage: /<command> [name]
+  delhome:
+    description: Delete one of your homes
+    usage: /<command> [name]
+  homes:
+    description: List your homes
+    usage: /<command>
+
+permissions:
+  primehomes.use:
+    description: Allows using home commands
+    default: true
+  primehomes.limit.1:
+    description: Grants a limit of 1 home
+    default: false
+  primehomes.limit.3:
+    description: Grants a limit of 3 homes
+    default: false
+  primehomes.limit.5:
+    description: Grants a limit of 5 homes
+    default: false
+  primehomes.limit.unlimited:
+    description: Grants unlimited homes
+    default: op
