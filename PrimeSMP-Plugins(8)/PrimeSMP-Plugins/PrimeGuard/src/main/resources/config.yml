@@ -1,0 +1,18 @@
+checks:
+  speed:
+    enabled: true
+    max-horizontal-distance: 0.85
+  fly:
+    enabled: true
+    max-upward-distance: 1.15
+  fast-break:
+    enabled: true
+    max-blocks-per-second: 14
+
+staff-tools:
+  random-teleport-radius: 3000
+  ore-vein-size: 8
+  stash:
+    diamonds: 8
+    gold-ingots: 16
+    ender-pearls: 4

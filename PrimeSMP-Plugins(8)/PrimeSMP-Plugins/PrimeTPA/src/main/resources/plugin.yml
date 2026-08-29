@@ -1,0 +1,28 @@
+name: PrimeTPA
+version: '1.0.0'
+main: com.primesmp.tpa.PrimeTPA
+api-version: '1.20'
+author: PrimeSMP
+description: Teleport request system for Prime SMP
+
+commands:
+  tpa:
+    description: Request to teleport to a player
+    usage: /<command> <player>
+  tpahere:
+    description: Request a player to teleport to you
+    usage: /<command> <player>
+  tpaccept:
+    description: Accept a pending teleport request
+    usage: /<command>
+  tpdeny:
+    description: Deny a pending teleport request
+    usage: /<command>
+  tpcancel:
+    description: Cancel a teleport request you sent
+    usage: /<command>
+
+permissions:
+  primetpa.use:
+    description: Allows sending and accepting teleport requests
+    default: true
