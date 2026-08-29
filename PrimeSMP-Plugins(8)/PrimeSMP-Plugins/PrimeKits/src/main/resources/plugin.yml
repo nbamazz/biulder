@@ -1,0 +1,19 @@
+name: PrimeKits
+version: '1.0.0'
+main: com.primesmp.kits.PrimeKits
+api-version: '1.20'
+author: PrimeSMP
+description: Configurable kits for Prime SMP
+
+commands:
+  kit:
+    description: List or claim a kit
+    usage: /<command> [name]
+
+permissions:
+  primekits.use:
+    description: Allows using /kit
+    default: true
+  primekits.admin:
+    description: Allows /kit reload and giving kits to others, bypasses cooldowns
+    default: op

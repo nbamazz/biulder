@@ -1,0 +1,21 @@
+# PrimeRTP configuration
+
+# Random teleport searches a square centered on the world's spawn point,
+# between min-radius and max-radius blocks out.
+min-radius: 500
+max-radius: 5000
+
+# How many random spots to try before giving up and telling the player to retry.
+max-attempts: 20
+
+# Materials the landing spot's ground block must NOT be (avoids water/lava/void).
+unsafe-ground:
+  - WATER
+  - LAVA
+  - AIR
+
+# Seconds of standing still required before /rtp triggers (0 = instant).
+warmup-seconds: 3
+
+# Seconds between uses of /rtp (per player).
+cooldown-seconds: 30

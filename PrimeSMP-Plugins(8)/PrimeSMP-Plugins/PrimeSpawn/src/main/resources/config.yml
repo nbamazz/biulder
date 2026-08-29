@@ -1,0 +1,13 @@
+# PrimeSpawn configuration
+
+# Teleport brand-new players (first ever join) to spawn once it's set.
+teleport-new-players-to-spawn: true
+
+# Teleport players to spawn on death instead of their bed/anchor.
+teleport-to-spawn-on-death: false
+
+# Seconds of standing still required before /spawn triggers (0 = instant).
+warmup-seconds: 3
+
+# Seconds between uses of /spawn (per player).
+cooldown-seconds: 5

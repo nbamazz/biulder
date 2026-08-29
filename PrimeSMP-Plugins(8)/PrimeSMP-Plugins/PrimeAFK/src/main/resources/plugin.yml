@@ -1,0 +1,16 @@
+name: PrimeAFK
+version: '1.0.0'
+main: com.primesmp.afk.PrimeAFK
+api-version: '1.20'
+author: PrimeSMP
+description: AFK detection for Prime SMP
+
+commands:
+  afk:
+    description: Manually toggle your AFK status
+    usage: /<command>
+
+permissions:
+  primeafk.exempt:
+    description: Exempt from auto-AFK detection and auto-kick
+    default: op
