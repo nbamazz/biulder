@@ -1,0 +1,12 @@
+# PrimeTPA configuration
+
+# Seconds before a pending request automatically expires.
+request-timeout-seconds: 60
+
+# Seconds of standing still required before a teleport triggers (0 = instant).
+# Moving or taking damage during the countdown cancels the teleport.
+warmup-seconds: 3
+
+# Seconds a player must wait after a request expires/completes before
+# sending another one.
+cooldown-seconds: 5

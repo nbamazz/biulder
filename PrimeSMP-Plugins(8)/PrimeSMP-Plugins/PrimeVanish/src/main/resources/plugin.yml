@@ -1,0 +1,20 @@
+name: PrimeVanish
+version: '1.0.0'
+main: com.primesmp.vanish.PrimeVanish
+api-version: '1.20'
+author: PrimeSMP
+description: Staff vanish toggle for Prime SMP
+
+commands:
+  vanish:
+    aliases: [v]
+    description: Toggle vanish
+    usage: /<command>
+
+permissions:
+  primevanish.use:
+    description: Allows toggling vanish
+    default: op
+  primevanish.see:
+    description: Allows seeing vanished players
+    default: op
