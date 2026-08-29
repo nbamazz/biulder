@@ -1,7 +1,0 @@
-# PrimeWarps configuration
-
-# Seconds of standing still required before /warp triggers (0 = instant).
-warmup-seconds: 3
-
-# Seconds between uses of /warp (per player).
-cooldown-seconds: 5

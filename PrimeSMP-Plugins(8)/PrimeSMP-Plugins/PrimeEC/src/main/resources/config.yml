@@ -1,8 +1,0 @@
-# PrimeEC configuration
-
-# Seconds a player must wait between uses of /ec (0 = no cooldown).
-# Doesn't apply to players with primeec.others viewing someone else's chest.
-cooldown-seconds: 0
-
-# Message shown while on cooldown. %seconds% is replaced with time remaining.
-cooldown-message: "&cYou can use /ec again in %seconds%s."
